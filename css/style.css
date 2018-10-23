@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto'; }
+  body #main-nav {
+    background: linear-gradient(to bottom right, rgba(255, 51, 0, 0.3), rgba(255, 163, 26, 0.3)); }
+  body #main-nav:hover {
+    text-color: #fff; }
+
+#home-section {
+  background: url(../img/rawpixel-610075-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  max-height: 100px; }
+  #home-section .dark-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    max-height: 100px;
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.7), rgba(255, 163, 26, 0.7)); }
+  #home-section #firstText {
+    margin-top: 20rem;
+    color: white; }
+  #home-section #arrow1 {
+    margin-top: 12rem; }
+  #home-section .fa-chevron-circle-down {
+    color: white; }
+
+.btns {
+  background-color: #ff8000; }
+
+#career-section .box-shade, #career-section #card1, #career-section #card2, #career-section #card3, #career-section #card4, #career-section #card5, #career-section #card6, #career-section #card7, #career-section #card8, #career-section #card9, #career-section #card10 {
+  box-shadow: 5px 5px 5px 5px rgba(225, 225, 208, 0.7); }
+
+#footer .cLog, #footer .fa-facebook-square, #footer .fa-twitter-square, #footer .fa-linkedin, #footer .fa-instagram, #footer .fa-line {
+  color: #808080; }
+#footer .fa-heart {
+  color: red; }
